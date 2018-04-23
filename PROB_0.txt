@@ -1,0 +1,20 @@
+# Strictly Increasing
+Given an array, determine if the array is strictly increasing with up to 3 exceptions.
+
+def strictIncreasing(array) {  
+  int count = 0;  
+  int last = NEG_INF  
+  if (array.length == 0) {  
+    return false  
+  }  
+  for i in array {  
+    if last > i {  
+    count++  
+    }  
+    if count > 3 {  
+      return false;  
+    }  
+    last = i  
+ }  
+ return true;  
+ }  
