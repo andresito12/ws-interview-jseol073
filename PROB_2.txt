@@ -5,3 +5,11 @@ String result = add("12345", "4512");
 \# result = 16857  
 
 When you finish implementation, what is the runtime order?
+
+int addString(string x, string y) {
+  Integer x = 
+  int numX = 0;
+  int numY = 0;
+  for (int i = 0; i < x.length(); i++) {
+    if (x.charAt(i) == '0') {
+      
