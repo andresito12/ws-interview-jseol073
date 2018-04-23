@@ -22,3 +22,17 @@ FIZZ
 13  
 14  
 FIZZBUZZ
+
+def iterateNumList(list):  
+  for i in list:  
+    if i mod 3:  
+      if i mod 5:  
+        print("FIZZBUZZ")  
+      else  
+        print("FIZZ")  
+    elif i mod 5:  
+      print("BUZZ")
+    else:  
+      print(list[i])  
+
+        
